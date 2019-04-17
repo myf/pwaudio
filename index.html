@@ -1,0 +1,14 @@
+<html>
+<head>
+    <link rel="manifest" href="/manifest.json">
+            <script>
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.register('service-worker.js')
+                        .then((reg) => console.log(reg))
+                }
+            </script>
+</head>
+<body>
+    <h1>this</h1>
+</body>
+</html>

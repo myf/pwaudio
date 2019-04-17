@@ -1,0 +1,9 @@
+{
+    "name": "this",
+    "short_name": "this",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "green",
+    "description": "web audio push server",
+    "icons":[]
+}
