@@ -5,5 +5,9 @@
     "display": "standalone",
     "background_color": "green",
     "description": "web audio push server",
-    "icons":[]
+    "icons":[{
+        "src":"image/myfavatar.png",
+        "size":"72x72",
+        "type":"image/png"
+    }]
 }
