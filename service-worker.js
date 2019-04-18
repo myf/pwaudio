@@ -1,6 +1,4 @@
-// Listen for install event, set callback
 self.addEventListener('install', function(event) {
-    // Perform some task
     event.waitUntil(
         caches.open('service-worker-cache').then((cache) => {
             console.log('caching index.html');
@@ -19,6 +17,6 @@ self.addEventListener('fetch', function(event) {
         ));
 });
 
-self.addEventListener('activate', function(event) {
+//self.addEventListener('activate', function(event) {
     // Perform some task
-});
+//});
